@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 15vh;
+        }
+
+
+        ul {
+            list-style-type: none;
+            text-align: center;
+        }
+        .sections {
+            display: flex;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="search">
+            <input type="text" name="searchInput" id="searchInput">
+        </div>
+    </div>
+    <div class="sections">
+        <ul class="searchableSections first-section">
+            <a href="#" class="title">First Section</a>
+            <li data-name="first"> <a href="#first">1</a></li>
+            <li data-name="second"><a href="#second">2</a></li>
+            <li data-name="third"><a href="#third">3</a></li>
+            <li data-name="fourth"><a href="#fourth">4</a></li>
+            <li data-name="fifth"><a href="#fifth">5</a></li>
+        </ul>
+        <ul class="searchableSections second-section">
+            <a href="#" class="title">Second Section</a>
+            <li data-name="six"> <a href="#six">6</a></li>
+            <li data-name="seven"><a href="#seven">7</a></li>
+            <li data-name="eight"><a href="#eight">8</a></li>
+            <li data-name="nine"><a href="#nine">9</a></li>
+            <li data-name="ten"><a href="#ten">10</a></li>
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
